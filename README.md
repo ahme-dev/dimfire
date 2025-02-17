@@ -1,3 +1,3 @@
-# Dim Fire README
+# Dim Fire
 
 Dim, simple, warm theme for the minimalist.

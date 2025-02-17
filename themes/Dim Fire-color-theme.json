@@ -55,7 +55,6 @@
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
-				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
@@ -69,6 +68,7 @@
 				"foreground": "#d1d1d1",
 			}
 		},
+
 
 		{
 			"name": "Class, Support, Types",
@@ -124,8 +124,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#bbb6a4",
-				// "foreground": "#dadada",
+				"foreground": "#c0b3a6",
 			}
 		},
 
@@ -139,14 +138,24 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#bbb6a4"
-				// "foreground": "#dadada",
+				"foreground": "#c0baa4"
 			}
 		},
 
 		// 
 		// HTML
 		// 
+
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#717171",
+			}
+		},
 
 		{
 			"name": "Elements",
@@ -165,7 +174,7 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#bbb6a4",
+				"foreground": "#c0baa4",
 			}
 		},
 
