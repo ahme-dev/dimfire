@@ -1,0 +1,21 @@
+{
+  "name": "dimfire",
+  "displayName": "Dim Fire",
+  "description": "Dim, simple, warm theme for the minimalist.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dim Fire Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dim Fire Theme-color-theme.json"
+      }
+    ]
+  }
+}
