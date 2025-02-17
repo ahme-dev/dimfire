@@ -1,8 +1,8 @@
 {
-	"name": "Dim Fire Theme",
+	"name": "Dim Fire",
 	"colors": {
 		"editor.background": "#212121",
-		"editor.foreground": "#dadada",
+		"editor.foreground": "#d1d1d1",
 		"activityBarBadge.background": "#212121",
 		"sideBarTitle.foreground": "#515151",
 		"sideBar.background": "#212121",
@@ -12,10 +12,12 @@
 		"scrollbarSlider.background": "#313131",
 		"button.background": "#414141",
 		"focusBorder": "#5a4a3a",
+
 		"statusBar.background": "#212121",
 		"statusBar.border": "#21212100",
 		"statusBar.foreground": "#616161",
-		"editorInlayHint.background": "#21212100",
+
+		"editorInlayHint.background": "#313131",
 
 		"editorInlayHint.foreground": "#717171",
 	},
@@ -44,7 +46,7 @@
 				"parameter",
 			],
 			"settings": {
-				"foreground": "#dadada",
+				"foreground": "#d1d1d1",
 			}
 		},
 		{
@@ -64,7 +66,7 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#dadada",
+				"foreground": "#d1d1d1",
 			}
 		},
 
@@ -82,7 +84,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#dadada"
+				"foreground": "#d1d1d1"
 			}
 		},
 
@@ -99,7 +101,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#df9696",
+				"foreground": "#ad7777",
 			}
 		},
 
@@ -122,7 +124,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#d6d1c0",
+				"foreground": "#bbb6a4",
 				// "foreground": "#dadada",
 			}
 		},
@@ -137,7 +139,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#d6d1c0"
+				"foreground": "#bbb6a4"
 				// "foreground": "#dadada",
 			}
 		},
@@ -163,7 +165,7 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#d6d1c0",
+				"foreground": "#bbb6a4",
 			}
 		},
 
