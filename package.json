@@ -1,21 +1,34 @@
 {
-  "name": "dimfire",
-  "displayName": "Dim Fire",
-  "description": "Dim, simple, warm theme for the minimalist.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.97.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Dim Fire Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dim Fire Theme-color-theme.json"
-      }
-    ]
-  }
+	"name": "dimfire",
+	"displayName": "Dim Fire",
+	"description": "Dim, simple, warm theme for the minimalist.",
+	"version": "0.0.1",
+	"publisher": "ahme-dev",
+	"repository": {
+		"url": "https://github.com/ahme-dev/dimfire",
+		"type": "git"
+	},
+	"engines": {
+		"vscode": "^1.97.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "assets/icon.png",
+	"keywords": [
+		"dark",
+		"dim",
+		"warm",
+		"minimal",
+		"simple"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dim Fire Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dim Fire Theme-color-theme.json"
+			}
+		]
+	}
 }
