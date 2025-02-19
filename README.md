@@ -5,7 +5,7 @@ Dim, simple, warm theme for the minimalist.
 ### Screenshots
 
 ##### Bright Variant - HTML
-<img src="./assets/screenshots/bright-html.png">
+![bright-variant-html](./assets/screenshots/bright-html.png)
 
 ##### Bright Variant - React
-<img src="./assets/screenshots/bright-react.png">
+![bright-variant-react](./assets/screenshots/bright-react.png)
