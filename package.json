@@ -2,7 +2,7 @@
 	"name": "dimfire",
 	"displayName": "Dim Fire",
 	"description": "Dim, simple, warm theme for the minimalist.",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"publisher": "ahme-dev",
 	"repository": {
 		"url": "https://github.com/ahme-dev/dimfire",
@@ -28,6 +28,11 @@
 				"label": "Dim Fire",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Dim Fire-color-theme.json"
+			},
+			{
+				"label": "Dim Fire Bright",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dim Fire Bright-color-theme.json"
 			}
 		]
 	}
