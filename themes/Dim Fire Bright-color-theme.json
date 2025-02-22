@@ -1,23 +1,23 @@
 {
 	"name": "Dim Fire Bright",
 	"colors": {
-		"editor.background": "#212121",
+		"editor.background": "#171717",
 		"editor.foreground": "#e1e1e1",
-		"activityBarBadge.background": "#212121",
+		"activityBarBadge.background": "#171717",
 		"sideBarTitle.foreground": "#515151",
-		"sideBar.background": "#212121",
+		"sideBar.background": "#171717",
 		"sideBar.foreground": "#515151",
-		"titleBar.activeBackground": "#212121",
+		"titleBar.activeBackground": "#171717",
 		"titleBar.activeForeground": "#616161",
-		"scrollbarSlider.background": "#313131",
+		"scrollbarSlider.background": "#272727",
 		"button.background": "#414141",
 		"focusBorder": "#5a4a3a",
 
-		"statusBar.background": "#212121",
-		"statusBar.border": "#21212100",
+		"statusBar.background": "#171717",
+		"statusBar.border": "#17171700",
 		"statusBar.foreground": "#616161",
 
-		"editorInlayHint.background": "#313131",
+		"editorInlayHint.background": "#272727",
 
 		"editorInlayHint.foreground": "#717171",
 	},
