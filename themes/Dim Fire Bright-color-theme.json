@@ -10,15 +10,45 @@
 		"titleBar.activeBackground": "#171717",
 		"titleBar.activeForeground": "#616161",
 		"scrollbarSlider.background": "#272727",
-		"button.background": "#414141",
+		"button.background": "#5a4a3a",
 		"focusBorder": "#5a4a3a",
+
+		"list.inactiveSelectionBackground":"#272727",
+		"list.inactiveSelectionForeground": "#e1e1e1",
+		"list.activeSelectionBackground": "#414141",
+		"list.activeSelectionForeground": "#e1e1e1",
+		"menu.background": "#171717",
+
+		"selection.background": "#272727",
+		"editor.wordHighlightBackground": "#414141d0",
+		"editor.symbolHighlightBackground": "#414141d0",
+		"editor.lineHighlightBackground": "#272727",
+		"editor.selectionBackground": "#272727",
+
+		"terminal.ansiBlue": "#c5a789",
+		"terminal.ansiBrightBlue": "#c5a789",
+		"terminal.ansiBrightGreen": "#c97b7b",
+		"terminal.ansiGreen": "#c97b7b",
+
+		"terminal.ansiBlack": "#3b4252",
+		"terminal.ansiBrightBlack": "#4c566a",
+		"terminal.ansiBrightCyan": "#cfd088",
+		"terminal.ansiCyan": "#cfd088",
+		"terminal.ansiBrightRed": "#bb7887",
+		"terminal.ansiRed": "#bb7887",
+		"terminal.ansiBrightMagenta": "#b48ead",
+		"terminal.ansiMagenta": "#b48ead",
+		"terminal.ansiBrightYellow": "#ebcb8b",
+		"terminal.ansiYellow": "#ebcb8b",
+		"terminal.ansiBrightWhite": "#f1f1f1",
+		"terminal.ansiWhite": "#e1e1e1",
+		"terminal.foreground": "#e1e1e1",
 
 		"statusBar.background": "#171717",
 		"statusBar.border": "#17171700",
 		"statusBar.foreground": "#616161",
 
 		"editorInlayHint.background": "#272727",
-
 		"editorInlayHint.foreground": "#717171",
 	},
 	"tokenColors": [
