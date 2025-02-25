@@ -4,8 +4,15 @@ Dim, simple, warm theme for the minimalist.
 
 ### Screenshots
 
-##### Bright Variant - HTML
-![bright-variant-html](assets/screenshots/bright-html.png)
+##### Bright Variant - Web
+![bright-variant-web](assets/screenshots/bright-web.png)
 
-##### Bright Variant - React
-![bright-variant-react](assets/screenshots/bright-react.png)
+##### Bright Variant - Go
+![bright-variant-go](assets/screenshots/bright-go.png)
+
+##### Regular Variant - Web
+![bright-variant-web](assets/screenshots/regular-web.png)
+
+##### Regular Variant - Go
+![bright-variant-go](assets/screenshots/regular-go.png)
+
