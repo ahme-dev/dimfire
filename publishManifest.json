@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json.schemastore.org/vsix-publish",
+	"categories": [
+		"Themes"
+	],
+	"identity": {
+		"displayName": "Dim Fire",
+		"internalName": "dimfire",
+		"description": "Dim, simple, warm theme for the minimalist.",
+		"icon": "assets/icon-nobg.png"
+	},
+	"overview": "README.md",
+	"priceCategory": "free",
+	"publisher": "ahme-dev",
+	"private": false,
+	"qna": false,
+	"repo": "https://github.com/ahme-dev/dimfire"
+}
