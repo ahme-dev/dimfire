@@ -6,11 +6,15 @@ on:
 
 jobs:
   deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: Publish Extension
-        uses: cezarypiatek/VsixPublisherAction@1.1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          extension-file: src\MappingGenerator.Vsix\bin\Release\MappingGenerator.vsix
-          publish-manifest-file: src\MappingGenerator.Vsix\publishManifest.json
-          personal-access-code: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          node-version: 20
+      - run: npm ci
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v2
+        with:
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          registryUrl: https://marketplace.visualstudio.com
