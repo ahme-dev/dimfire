@@ -128,7 +128,7 @@
 				"keyword.other.unit",
 				"keyword.other",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
 			],
 			"settings": {
 				"foreground": "#c97b7b",
@@ -165,7 +165,9 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+
+				"entity.name.type.object.qml"
 			],
 			"settings": {
 				"foreground": "#c9bd91"

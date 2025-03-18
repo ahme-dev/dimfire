@@ -166,7 +166,9 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+
+				"entity.name.type.object.qml"
 			],
 			"settings": {
 				"foreground": "#c0baa4"
