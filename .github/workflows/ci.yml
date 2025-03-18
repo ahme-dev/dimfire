@@ -1,9 +1,9 @@
-name: CI
+name: Deploy Extension
+
 on:
   push:
     branches: [main]
 
-name: Deploy Extension
 jobs:
   deploy:
     runs-on: ubuntu-latest
