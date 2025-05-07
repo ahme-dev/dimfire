@@ -33,6 +33,11 @@
 				"label": "Dim Fire Bright",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Dim Fire Bright-color-theme.json"
+			},
+			{
+				"label": "Dim Fire Inverted",
+				"uiTheme": "vs",
+				"path": "./themes/Dim Fire Inverted-color-theme.json"
 			}
 		]
 	}
