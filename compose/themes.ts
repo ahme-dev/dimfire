@@ -8,7 +8,7 @@ export const themes = [
 			g3: "#414141",
 			g3transparent: "#414141d0",
 			g4: "#717171",
-			g5: "#a4a4a4",
+			g5: "#c1c1c1",
 			g6: "#e1e1e1",
 			g7: "#f1f1f1",
 
@@ -37,7 +37,7 @@ export const themes = [
 
 			g3transparent: "#4f4f4fd0",
 			g4: "#616161",
-			g5: "#c1c1c1",
+			g5: "#b1b1b1",
 			g6: "#d1d1d1",
 			g7: "#efefef",
 

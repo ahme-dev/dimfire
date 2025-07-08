@@ -1,52 +1,52 @@
 {
-  "name": "dimfire",
-  "displayName": "Dim Fire",
-  "description": "Dim, simple, warm theme for the minimalist.",
-  "version": "1.0.0",
-  "publisher": "ahme-dev",
-  "repository": {
-    "url": "https://github.com/ahme-dev/dimfire",
-    "type": "git"
-  },
-  "engines": {
-    "vscode": "^1.97.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "icon": "assets/icon-nobg.png",
-  "keywords": [
-    "dark",
-    "dim",
-    "warm",
-    "minimal",
-    "simple"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Dim Fire Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dim Fire Night-color-theme.json"
-      },
-      {
-        "label": "Dim Fire Dusk",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dim Fire Dusk-color-theme.json"
-      },
-      {
-        "label": "Dim Fire Day",
-        "uiTheme": "vs",
-        "path": "./themes/Dim Fire Day-color-theme.json"
-      }
-    ]
-  },
-  "scripts": {
-    "format": "biome format --write",
-    "compose": "bun --experimental-strip-types compose/main.ts"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.1.0",
-    "@types/node": "^24.0.10"
-  }
+	"name": "dimfire",
+	"displayName": "Dim Fire",
+	"description": "Dim, simple, warm theme for the minimalist.",
+	"version": "1.0.1",
+	"publisher": "ahme-dev",
+	"repository": {
+		"url": "https://github.com/ahme-dev/dimfire",
+		"type": "git"
+	},
+	"engines": {
+		"vscode": "^1.97.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "assets/icon-nobg.png",
+	"keywords": [
+		"dark",
+		"dim",
+		"warm",
+		"minimal",
+		"simple"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dim Fire Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dim Fire Night-color-theme.json"
+			},
+			{
+				"label": "Dim Fire Dusk",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dim Fire Dusk-color-theme.json"
+			},
+			{
+				"label": "Dim Fire Day",
+				"uiTheme": "vs",
+				"path": "./themes/Dim Fire Day-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"format": "biome format --write",
+		"compose": "bun --experimental-strip-types compose/main.ts"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.1.0",
+		"@types/node": "^24.0.10"
+	}
 }
