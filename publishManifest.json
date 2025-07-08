@@ -1,8 +1,6 @@
 {
 	"$schema": "http://json.schemastore.org/vsix-publish",
-	"categories": [
-		"Themes"
-	],
+	"categories": ["Themes"],
 	"identity": {
 		"displayName": "Dim Fire",
 		"internalName": "dimfire",
