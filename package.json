@@ -43,7 +43,7 @@
   },
   "scripts": {
     "format": "biome format --write",
-    "compose": "bun compose/main.ts"
+    "compose": "bun --experimental-strip-types compose/main.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.0",
