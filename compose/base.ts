@@ -52,7 +52,15 @@ export const baseTheme = {
 	colors: {
 		"editor.background": "g1",
 		"editor.foreground": "g5",
-		"activityBarBadge.background": "g1",
+
+		"activityBarBadge.background": "g4",
+		"activityBarBadge.foreground": "g2",
+
+		"activityBar.background": "g1",
+		"activityBar.foreground": "g5",
+		"activityBar.inactiveForeground": "g4",
+		"activityBar.activeBorder": "h1",
+
 		"sideBarTitle.foreground": "g4",
 		"sideBar.background": "g1",
 		"sideBar.foreground": "g5",

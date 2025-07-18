@@ -3,7 +3,12 @@
 	"colors": {
 		"editor.background": "#f9f9f9",
 		"editor.foreground": "#4e4e4e",
-		"activityBarBadge.background": "#f9f9f9",
+		"activityBarBadge.background": "#afafaf",
+		"activityBarBadge.foreground": "#e8e8e8",
+		"activityBar.background": "#f9f9f9",
+		"activityBar.foreground": "#4e4e4e",
+		"activityBar.inactiveForeground": "#afafaf",
+		"activityBar.activeBorder": "#a56b5c",
 		"sideBarTitle.foreground": "#afafaf",
 		"sideBar.background": "#f9f9f9",
 		"sideBar.foreground": "#4e4e4e",
