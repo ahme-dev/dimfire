@@ -43,9 +43,11 @@
 	},
 	"scripts": {
 		"format": "biome format --write",
-		"compose": "bun --experimental-strip-types compose/main.ts"
+		"compose": "bun --experimental-strip-types compose/main.ts",
+		"package": "bun vsce package"
 	},
 	"devDependencies": {
+		"@vscode/vsce": "^3.2.1",
 		"@biomejs/biome": "^2.1.0",
 		"@types/node": "^24.0.10"
 	}
