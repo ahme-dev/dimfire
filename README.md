@@ -2,6 +2,8 @@
 
 Dim, simple, warm theme for the minimalist.
 
+Available on [Open VSIX](https://open-vsx.org/extension/ahme-dev/dimfire) (cursor, vscodium, etc.) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ahme-dev.dimfire) (vscode).
+
 ## Colors
 
 Dim Fire comes in three variants:
