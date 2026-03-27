@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import { convertToExpandedTheme } from "./base";
+import { emitNeovimTheme } from "./neovim";
 import { themes } from "./themes";
 
 const themesDir = "./themes";
@@ -44,3 +45,11 @@ for (const theme of themes) {
 fs.writeFileSync(packageJsonFile, JSON.stringify(packageJson, null, 2));
 
 console.log(`Updated package.json for themes`);
+
+const colorsDir = "./colors";
+if (!fs.existsSync(colorsDir)) fs.mkdirSync(colorsDir);
+for (const theme of themes) {
+	emitNeovimTheme(theme, colorsDir);
+}
+
+console.log(`Wrote vim themes`);
